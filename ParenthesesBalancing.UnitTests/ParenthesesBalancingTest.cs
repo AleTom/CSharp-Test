@@ -86,13 +86,5 @@ namespace ParenthesesBalancing.UnitTests
             new Class1().popolaMatrice();
             //result.Should().BeFalse();
         }
-
-        [Fact]
-        public void tst1()
-        {
-            const string IP = "1.2.3.04";
-            new Class1().test1();
-            //result.Should().BeFalse();
-        }
     }
 }

@@ -1,6 +1,6 @@
-# Sogeti - Microsoft Assessment
+# Microsoft Assessment
 
-Welcome to the C# assessment for the Microsoft Community at Sogeti. In this solution you are presented with four challenges to solve.
+Welcome to the C# assessment for the Microsoft Community. In this solution you are presented with four challenges to solve.
 It is here to give us an insight in your level of knowledge and experience.
 The time to use on this assessment should be about 2 to 3 hours.
 
