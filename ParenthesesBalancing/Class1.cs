@@ -10,33 +10,7 @@ namespace ParenthesesBalancing
 {
     public class Class1
     {
-        public void test1() 
-        {
-            var invocationCount = 0;
-            Predicate<int> myPredicate = (x) =>
-            {
-                invocationCount++;
-                return x % 2 == 0;
-            };
-
-            int[] myCollection = { 2, 0, 1, 4, 3 };
-            var query = from i in myCollection
-                        where i < 4 && myPredicate(i)
-                        select i;
-
-            Console.WriteLine(invocationCount);
-            foreach (var result in query.ToArray())
-            {
-                Console.WriteLine(result);
-            }
-
-            Console.WriteLine(invocationCount);
-
-            Func<int, bool> condition1 = (x) => { Debug.Write(x); return x % 2 == 0; };
-            Func<int, bool> condition2 = (x) => { Debug.Write(x); return x % 3 == 0; };
-            Func<int, bool> condition3 = (x) => { Debug.Write(x); return x % 5 == 0; };
-            var resul = condition1(4) | condition2(7) && condition3(5) || condition2(3) | condition3(10);
-        }
+       
 
         public void popolaMatrice() 
         {
