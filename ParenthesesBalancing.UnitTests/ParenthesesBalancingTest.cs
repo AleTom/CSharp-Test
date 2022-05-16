@@ -70,5 +70,29 @@ namespace ParenthesesBalancing.UnitTests
             var result = new ParenthesesBalancing().IsBalanced(weirdText);
             result.Should().BeFalse();
         }
+
+        [Fact]
+        public void givenComplicatedTextWithUnnBalancedParentheses_thenReturnFalse()
+        {
+            const string IP = "1.2.3.04";
+            var result = new Class1().ValidateIPAddress(IP);
+            //result.Should().BeFalse();
+        }
+
+        [Fact]
+        public void matrice()
+        {
+            const string IP = "1.2.3.04";
+            new Class1().popolaMatrice();
+            //result.Should().BeFalse();
+        }
+
+        [Fact]
+        public void tst1()
+        {
+            const string IP = "1.2.3.04";
+            new Class1().test1();
+            //result.Should().BeFalse();
+        }
     }
 }
