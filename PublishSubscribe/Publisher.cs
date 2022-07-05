@@ -13,7 +13,7 @@ namespace PublishSubscribe
 
         public void Publish()
         {
-            Notify("Message published");
+            Notify("Message publ");
         }
     }
 }
